@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page - Kali Linux</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <div>
+      <img src="https://seguridadnovedadjose.files.wordpress.com/2016/11/kali-logo.png" id="header-img">
+    </div>
+    <div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#products">Products</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <article>
+    <section>
+      <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/cFBh44ySmxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <form id="form" action="">
+        <label for="email">Subscribe to Newsletter</label>
+        <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+        <input id="submit" type="submit" value="Submit" formaction="https://www.freecodecamp.com/email-submit">
+      </form>
+    </section>
+    <section>
+      <div id="about">
+        <p>Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security.</p>
+      </div>
+      <div id="products">
+        <h2>Our products</h2>
+        <div class="kali">Kali Linux</div>
+        <div class="nethunter">Kali NetHunter for Android Devices</div>
+      </div>
+    </section>
+    <div id="features">
+      <ol>
+        <li>Over 600 penetration testing tools pre-installed
+          Kali Linux comes packed with more than 600 useful tools like Wireshark, Crunch, Nmap, and Aircrack-ng.</li>
+
+        <li>Multi-language support
+          Kali Linux tools include multi-lingual support to enable its users to operate in their native language.</li>
+
+        <li>Developed in a secure environment
+          Only a limited number of trusted individuals can interact with the Kali Linux code repositories.</li>
+
+        <li>Adherence to the Filesystem Hierarchy Standard (FHS)
+          Kali Linux adheres to FHS in order to locate libraries, support files, etc. with ease.</li>
+
+        <li>Free of cost
+          Kali Linux is free to use, and its developers promise that it will remain so</li>
+      </ol>
+    </div>
+  </article>
+  <footer id="footer">
+    <nav id="nav-footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <p>Offensive Security Copyright © 2021</p>
+    </nav>
+  </footer>
+</body>
+
+</html>
