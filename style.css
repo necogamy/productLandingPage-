@@ -20,6 +20,7 @@ header {
     background-color: rgba(26, 81, 153, 1);
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 header img {
@@ -52,12 +53,16 @@ header a:hover {
 
 #header {
   position: fixed;
-  z-index: 1000;
+  z-index: 100;
 }
 
 article {
   position: relative;
-  padding-top: 18%;
+}
+
+iframe {
+  position: relative;
+  padding-top: 150px;
 }
 
 footer {
@@ -94,10 +99,15 @@ form {
   padding: 6%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 724px) {
     #nav-bar ul li {
         padding: 25px;
         font-size: 15px;
         text-transform: uppercase;
+    }
+
+    iframe {
+      width: 350px;
+      height: 350px;
     }
 }
